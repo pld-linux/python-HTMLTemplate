@@ -1,6 +1,6 @@
 
 %include	/usr/lib/rpm/macros.python
-%define 	module HTMLTemplate
+%define 	module	HTMLTemplate
 
 Summary:	Another (X)HTML template Python module
 Summary(pl):	Kolejny modu³ Pythona do przetwarzania szablonów (X)HTML
@@ -21,7 +21,6 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 HTMLTemplate converts (X)HTML templates into a simple Python object
 model that can be manipulated by ordinary Python scripts. Fast,
 powerful and easy to use.
-
 
 %description -l pl
 HTMLTemplate przekszta³ca szablony (X)HTML w proste drzewo obiektów w
