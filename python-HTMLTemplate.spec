@@ -23,7 +23,7 @@ powerful and easy to use.
 
 %description -l pl
 HTMLTemplate przekszta³ca szablony (X)HTML w proste drzewo obiektów w
-Pythonie, ktore mo¿e byæ przetwarzane przy pomocy skryptów pisanych w
+Pythonie, które mo¿e byæ przetwarzane przy pomocy skryptów pisanych w
 tym jêzyku. Modu³ HTMLTemplte jest szybki, efektywny i ³atwy w u¿yciu.
 
 %package doc
