@@ -11,7 +11,7 @@ Group:		Libraries/Python
 Source0:	http://freespace.virgin.net/hamish.sanderson/%{module}-%{version}.tar.gz
 # Source0-md5:	8151d36e90124734ac0cb5f4fb9bad55
 URL:		http://freespace.virgin.net/hamish.sanderson/htmltemplate.html
-BuildRequires:	python-devel >= 2.3
+BuildRequires:	python-devel >= 1:2.3
 Requires:	python >= 2.3
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
