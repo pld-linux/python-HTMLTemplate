@@ -1,5 +1,4 @@
 
-%include	/usr/lib/rpm/macros.python
 %define 	module	HTMLTemplate
 
 Summary:	Another (X)HTML template Python module
