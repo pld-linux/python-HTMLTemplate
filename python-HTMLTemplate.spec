@@ -4,12 +4,12 @@
 Summary:	Another (X)HTML template Python module
 Summary(pl):	Kolejny modu³ Pythona do przetwarzania szablonów (X)HTML
 Name:		python-%{module}
-Version:	1.1.0
+Version:	1.1.1
 Release:	1
 License:	LGPL
 Group:		Libraries/Python
 Source0:	http://freespace.virgin.net/hamish.sanderson/%{module}-%{version}.tar.gz
-# Source0-md5:	da366881c7778ab713c185e048ca1975
+# Source0-md5:	8151d36e90124734ac0cb5f4fb9bad55
 URL:		http://freespace.virgin.net/hamish.sanderson/htmltemplate.html
 BuildRequires:	python-devel >= 2.3
 Requires:	python >= 2.3
