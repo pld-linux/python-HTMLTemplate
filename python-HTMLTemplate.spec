@@ -39,7 +39,7 @@ This package contains documentation files for HTMLTemplate Python
 module.
 
 %description doc -l pl
-Pakiet zawieraj±cy dokumentacjê dla modu³u Python HTMLTemplate.
+Pakiet zawieraj±cy dokumentacjê dla modu³u Pythona HTMLTemplate.
 
 %package examples
 Summary:	Examples for HTMLTemplate module
@@ -51,7 +51,7 @@ Requires:	%{name} = %{version}-%{release}
 This package contains example files for HTMLTemplate Python module.
 
 %description examples -l pl
-Pakiet zawieraj±cy przyk³adowe skrypty dla modu³u Python HTMLTemplate.
+Pakiet zawieraj±cy przyk³adowe skrypty dla modu³u Pythona HTMLTemplate.
 
 %prep
 %setup -q -n %{module}-%{version}
