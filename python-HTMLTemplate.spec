@@ -2,7 +2,7 @@
 %define 	module	HTMLTemplate
 
 Summary:	Another (X)HTML template Python module
-Summary(pl):	Kolejny modu≥ Pythona do przetwarzania szablonÛw (X)HTML
+Summary(pl.UTF-8):   Kolejny modu≈Ç Pythona do przetwarzania szablon√≥w (X)HTML
 Name:		python-%{module}
 Version:	1.4.1
 Release:	1
@@ -21,14 +21,14 @@ HTMLTemplate converts (X)HTML templates into a simple Python object
 model that can be manipulated by ordinary Python scripts. Fast,
 powerful and easy to use.
 
-%description -l pl
-HTMLTemplate przekszta≥ca szablony (X)HTML w proste drzewo obiektÛw w
-Pythonie, ktÛre moøe byÊ przetwarzane przy pomocy skryptÛw pisanych w
-tym jÍzyku. Modu≥ HTMLTemplte jest szybki, efektywny i ≥atwy w uøyciu.
+%description -l pl.UTF-8
+HTMLTemplate przekszta≈Çca szablony (X)HTML w proste drzewo obiekt√≥w w
+Pythonie, kt√≥re mo≈ºe byƒá przetwarzane przy pomocy skrypt√≥w pisanych w
+tym jƒôzyku. Modu≈Ç HTMLTemplte jest szybki, efektywny i ≈Çatwy w u≈ºyciu.
 
 %package doc
 Summary:	Documentation for HTMLTemplate module
-Summary(pl):	Dokumentacja do modu≥u HTMLTemplate
+Summary(pl.UTF-8):   Dokumentacja do modu≈Çu HTMLTemplate
 Group:		Libraries/Python
 Requires:	%{name} = %{version}-%{release}
 
@@ -36,20 +36,20 @@ Requires:	%{name} = %{version}-%{release}
 This package contains documentation files for HTMLTemplate Python
 module.
 
-%description doc -l pl
-Pakiet zawieraj±cy dokumentacjÍ dla modu≥u Pythona HTMLTemplate.
+%description doc -l pl.UTF-8
+Pakiet zawierajƒÖcy dokumentacjƒô dla modu≈Çu Pythona HTMLTemplate.
 
 %package examples
 Summary:	Examples for HTMLTemplate module
-Summary(pl):	Przyk≥ady do modu≥u HTMLTemplate
+Summary(pl.UTF-8):   Przyk≈Çady do modu≈Çu HTMLTemplate
 Group:		Libraries/Python
 Requires:	%{name} = %{version}-%{release}
 
 %description examples
 This package contains example files for HTMLTemplate Python module.
 
-%description examples -l pl
-Pakiet zawieraj±cy przyk≥adowe skrypty dla modu≥u Pythona HTMLTemplate.
+%description examples -l pl.UTF-8
+Pakiet zawierajƒÖcy przyk≈Çadowe skrypty dla modu≈Çu Pythona HTMLTemplate.
 
 %prep
 %setup -q -n %{module}-%{version}
