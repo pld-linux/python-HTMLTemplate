@@ -2,7 +2,7 @@
 %define 	module	HTMLTemplate
 
 Summary:	Another (X)HTML template Python module
-Summary(pl.UTF-8):   Kolejny moduł Pythona do przetwarzania szablonów (X)HTML
+Summary(pl.UTF-8):	Kolejny moduł Pythona do przetwarzania szablonów (X)HTML
 Name:		python-%{module}
 Version:	1.4.1
 Release:	1
@@ -28,7 +28,7 @@ tym języku. Moduł HTMLTemplte jest szybki, efektywny i łatwy w użyciu.
 
 %package doc
 Summary:	Documentation for HTMLTemplate module
-Summary(pl.UTF-8):   Dokumentacja do modułu HTMLTemplate
+Summary(pl.UTF-8):	Dokumentacja do modułu HTMLTemplate
 Group:		Libraries/Python
 Requires:	%{name} = %{version}-%{release}
 
@@ -41,7 +41,7 @@ Pakiet zawierający dokumentację dla modułu Pythona HTMLTemplate.
 
 %package examples
 Summary:	Examples for HTMLTemplate module
-Summary(pl.UTF-8):   Przykłady do modułu HTMLTemplate
+Summary(pl.UTF-8):	Przykłady do modułu HTMLTemplate
 Group:		Libraries/Python
 Requires:	%{name} = %{version}-%{release}
 
