@@ -5,7 +5,7 @@ Summary:	Another (X)HTML template Python module
 Summary(pl.UTF-8):	Kolejny moduł Pythona do przetwarzania szablonów (X)HTML
 Name:		python-%{module}
 Version:	1.4.1
-Release:	1
+Release:	2
 License:	LGPL
 Group:		Libraries/Python
 Source0:	http://freespace.virgin.net/hamish.sanderson/%{module}-%{version}.tar.gz
