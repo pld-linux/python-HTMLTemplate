@@ -12,6 +12,8 @@ Source0:	http://freespace.virgin.net/hamish.sanderson/%{module}-%{version}.tar.g
 # Source0-md5:	74bbaee9b851b17b5c5cd1658ea42897
 URL:		http://freespace.virgin.net/hamish.sanderson/htmltemplate.html
 BuildRequires:	python-devel >= 1:2.3
+BuildRequires:	python-modules
+BuildRequires:	rpm-pythonprov
 %pyrequires_eq	python-libs
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
