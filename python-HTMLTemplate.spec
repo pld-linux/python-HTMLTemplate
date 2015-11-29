@@ -11,6 +11,7 @@ Group:		Libraries/Python
 Source0:	http://freespace.virgin.net/hamish.sanderson/%{module}-%{version}.tar.gz
 # Source0-md5:	74bbaee9b851b17b5c5cd1658ea42897
 URL:		http://freespace.virgin.net/hamish.sanderson/htmltemplate.html
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	python-devel >= 1:2.3
 BuildRequires:	python-modules
 BuildRequires:	rpm-pythonprov
